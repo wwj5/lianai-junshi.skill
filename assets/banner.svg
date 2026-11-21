@@ -1,49 +1,36 @@
-<svg width="1200" height="330" viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="恋爱军师.skill">
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="恋爱军师.skill">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="0.55" stop-color="#11161e"/>
+      <stop offset="0.6" stop-color="#11161e"/>
       <stop offset="1" stop-color="#161b22"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#1f6feb"/>
-      <stop offset="0.5" stop-color="#3fb950"/>
-      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.6">
-      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.20"/>
+    <radialGradient id="glow" cx="0.78" cy="0.25" r="0.6">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.18"/>
       <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <rect width="1200" height="330" fill="url(#bg)"/>
-  <rect width="1200" height="330" fill="url(#glow)"/>
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="#1f6feb" opacity="0.6"/>
 
-  <g opacity="0.55">
-    <rect x="0" y="0" width="1200" height="3" fill="url(#line)"/>
-  </g>
-
-  <!-- 左侧文字 -->
-  <text x="64" y="126" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="62" font-weight="700" fill="#f0f6fc">恋爱军师<tspan fill="#58a6ff">.skill</tspan></text>
-
-  <text x="66" y="176" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="21" fill="#8b949e">146 万段真人对话 · 挑出 208 段 · 1897 轮 · 只学一件事</text>
-
-  <text x="64" y="238" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="600" fill="#c9d1d9">怎么像人一样打字</text>
-
-  <text x="66" y="288" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="17" fill="#6e7681">先判阶段 · 再定这一轮只做一件事 · 最后按真人打字的断句出话</text>
-
-  <!-- 右侧聊天气泡 -->
   <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
-    <rect x="726" y="62" width="196" height="50" rx="12" fill="#21262d"/>
-    <text x="750" y="94" font-size="19" fill="#c9d1d9">在干嘛呢</text>
+    <text x="64" y="66" font-size="30" font-weight="600" fill="#58a6ff">恋爱军师.skill</text>
 
-    <rect x="866" y="126" width="248" height="50" rx="12" fill="#1f6feb"/>
-    <text x="890" y="158" font-size="19" fill="#ffffff">刚下班 累成狗</text>
+    <text x="62" y="156" font-size="60" font-weight="700" fill="#f0f6fc">怎么像人一样打字</text>
 
-    <rect x="726" y="190" width="176" height="50" rx="12" fill="#21262d"/>
-    <text x="750" y="222" font-size="19" fill="#c9d1d9">那早点睡</text>
+    <text x="64" y="212" font-size="26" fill="#8b949e">146 万段真人对话 挑出 208 段 1897 轮</text>
 
-    <rect x="914" y="254" width="200" height="50" rx="12" fill="#1f6feb"/>
-    <text x="938" y="286" font-size="19" fill="#ffffff">嗯 你也是</text>
+    <text x="64" y="252" font-size="20" fill="#6e7681">揉合情圣 童锦程 狗头军师 三套判断 砍掉 AI 腔</text>
+
+    <rect x="742" y="52" width="212" height="54" rx="13" fill="#21262d"/>
+    <text x="768" y="87" font-size="26" fill="#c9d1d9">在干嘛呢</text>
+
+    <rect x="838" y="124" width="294" height="54" rx="13" fill="#1f6feb"/>
+    <text x="864" y="159" font-size="26" fill="#ffffff">刚下班 累成狗</text>
+
+    <rect x="742" y="196" width="200" height="54" rx="13" fill="#21262d"/>
+    <text x="768" y="231" font-size="26" fill="#c9d1d9">那早点睡</text>
   </g>
 </svg>
