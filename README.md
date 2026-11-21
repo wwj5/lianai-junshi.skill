@@ -1,6 +1,6 @@
 <div align="center">
 
-# 恋爱军师
+# 恋爱军师.skill
 
 **不只帮你回这一句 更帮你看清现在站在哪一步**
 
@@ -12,7 +12,7 @@
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![Corpus](https://img.shields.io/badge/corpus-208_dialogues_·_1897_turns-6f42c1)
 ![Files](https://img.shields.io/badge/files-20-lightgrey)
-[![Stars](https://img.shields.io/github/stars/wwj5/lianai-junshi?style=social)](https://github.com/wwj5/lianai-junshi/stargazers)
+[![Stars](https://img.shields.io/github/stars/wwj5/lianai-junshi.skill?style=social)](https://github.com/wwj5/lianai-junshi.skill/stargazers)
 
 <sub>语气锚点来自 208 段 / 1897 轮真人私聊实录 · 其中 22,813 字逐条手工转写</sub>
 
@@ -218,7 +218,7 @@
 把下面这句发给你的 AI 助手：
 
 ```text
-请把公开仓库 https://github.com/wwj5/lianai-junshi
+请把公开仓库 https://github.com/wwj5/lianai-junshi.skill
 下载并安装为本地 skill 装好后告诉我怎么调用
 ```
 
@@ -232,19 +232,21 @@
 
 各家的 skills 目录不一样，按你在用的那个放：
 
-- 豆包 / Doubao：`<workspace>/.user_skills/lianai-junshi`
-- Claude Code 全局：`~/.claude/skills/lianai-junshi`
-- Claude Code 项目内：`<项目>/.claude/skills/lianai-junshi`
+- 豆包 / Doubao：`<workspace>/.user_skills/恋爱军师.skill`
+- Claude Code 全局：`~/.claude/skills/恋爱军师.skill`
+- Claude Code 项目内：`<项目>/.claude/skills/恋爱军师.skill`
 - 其他 agent：任意目录，只要跟它说一句 `SKILL.md` 在哪
 
-目录名不用非叫 `lianai-junshi`。脚本全部用相对路径，目录挪到哪都能跑；只依赖 Python 3 标准库，不需要 pip 装任何东西。
+目录名就用 `恋爱军师.skill`，和项目名对上。脚本全部用相对路径，目录挪到哪都能跑；只依赖 Python 3 标准库，不需要 pip 装任何东西。
+
+`SKILL.md` 里 frontmatter 的 `name` 保持 `lianai-junshi` 不改，因为 Claude Code 这类 agent 只接受小写字母 数字 连字符，中文和点号会直接加载失败。目录名可以随便叫，这个字段别动。
 
 如果它根本没有 skills 这个概念，退一步：把 `SKILL.md` 全文贴进它的系统提示或项目规则文件，再把 `scripts/` 的绝对路径告诉它，让它按需调用。
 
 装完先验证一次：
 
 ```bash
-cd lianai-junshi
+cd 恋爱军师.skill
 python scripts/取料.py --list
 ```
 
@@ -394,7 +396,7 @@ python scripts/检查话术.py --text "你要发的话" --peer 8
 ## 项目结构
 
 ```text
-lianai-junshi/
+恋爱军师.skill/
 ├── SKILL.md              六步流程 · 加载表
 ├── references/
 │   ├── 阶段与卡点.md     九档定义 · 卡点
