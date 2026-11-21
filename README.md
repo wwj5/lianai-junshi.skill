@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.svg" width="840" alt="恋爱军师.skill">
+
 # 恋爱军师.skill
 
 **不只帮你回这一句 更帮你看清现在站在哪一步**
