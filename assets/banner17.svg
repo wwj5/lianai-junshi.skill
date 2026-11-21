@@ -34,9 +34,9 @@
 
     <rect x="700" y="20" width="228" height="38" rx="10" fill="#1f6feb" opacity="0.16"/>
     <text x="722" y="46" font-size="22" fill="#79b8ff">初识</text>
-    <text x="782" y="46" font-size="22" fill="#8b949e">刚加上微信</text>
+    <text x="788" y="47" font-size="20" fill="#9aa4b2">刚加上微信</text>
 
-    <rect x="700" y="72" width="340" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
+    <rect x="700" y="72" width="320" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
     <text x="722" y="105" font-size="30" fill="#c9d1d9">你好呀 我是群里那个</text>
 
     <rect x="750" y="128" width="380" height="48" rx="14" fill="#1f6feb"/>
@@ -55,3 +55,4 @@
     <text x="922" y="385" font-size="30" fill="#ffffff">本来也是夸啊</text>
   </g>
 </svg>
+
