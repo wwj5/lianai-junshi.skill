@@ -36,22 +36,22 @@
     <text x="722" y="46" font-size="22" fill="#79b8ff">初识</text>
     <text x="788" y="47" font-size="20" fill="#9aa4b2">刚加上微信</text>
 
-    <rect x="830" y="72" width="300" height="48" rx="14" fill="#1f6feb"/>
-    <text x="852" y="105" font-size="30" fill="#ffffff">群里看到你 就加了</text>
+    <rect x="700" y="72" width="330" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
+    <text x="722" y="105" font-size="30" fill="#c9d1d9">你好呀 我是群里那个</text>
 
-    <rect x="700" y="128" width="140" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
-    <text x="722" y="161" font-size="30" fill="#c9d1d9">哪位呀</text>
+    <rect x="786" y="128" width="344" height="48" rx="14" fill="#1f6feb"/>
+    <text x="808" y="161" font-size="30" fill="#ffffff">嗯 看到了 头像挺特别</text>
 
-    <rect x="718" y="184" width="412" height="48" rx="14" fill="#1f6feb"/>
-    <text x="740" y="217" font-size="30" fill="#ffffff">潜水那个 姓吴 天天不说话</text>
+    <rect x="700" y="184" width="300" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
+    <text x="722" y="217" font-size="30" fill="#c9d1d9">随便找的图 凑合用</text>
 
-    <rect x="700" y="240" width="384" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
-    <text x="722" y="273" font-size="30" fill="#c9d1d9">哦 有印象 头像最怪那个</text>
+    <rect x="770" y="240" width="360" height="48" rx="14" fill="#1f6feb"/>
+    <text x="792" y="273" font-size="30" fill="#ffffff">随手找的能用 算有眼光</text>
 
-    <rect x="734" y="296" width="396" height="48" rx="14" fill="#1f6feb"/>
-    <text x="756" y="329" font-size="30" fill="#ffffff">那就记住这张怪脸 有事喊我</text>
+    <rect x="700" y="296" width="314" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
+    <text x="722" y="329" font-size="30" fill="#c9d1d9">你这话听着像夸人啊</text>
 
-    <rect x="700" y="352" width="210" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
-    <text x="722" y="385" font-size="30" fill="#c9d1d9">行 有事找你</text>
+    <rect x="904" y="352" width="226" height="48" rx="14" fill="#1f6feb"/>
+    <text x="926" y="385" font-size="30" fill="#ffffff">本来也是夸啊</text>
   </g>
 </svg>
