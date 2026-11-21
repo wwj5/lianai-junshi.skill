@@ -1,4 +1,4 @@
-<svg width="1200" height="430" viewBox="0 0 1200 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="恋爱军师.skill">
+<svg width="1200" height="430" viewBox="0 0 1200 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="恋爱军师.skill" data-v="14">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0d1117"/>
@@ -50,7 +50,8 @@
     <rect x="722" y="296" width="224" height="48" rx="14" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
     <text x="744" y="329" font-size="30" fill="#c9d1d9">你下次还去啊</text>
 
-    <rect x="776" y="352" width="374" height="48" rx="14" fill="#1f6feb"/>
-    <text x="798" y="385" font-size="30" fill="#ffffff">去 你也去的话 我喊你</text>
+    <rect x="836" y="352" width="314" height="48" rx="14" fill="#1f6feb"/>
+    <text x="858" y="385" font-size="30" fill="#ffffff">去啊 你要去我喊你</text>
   </g>
 </svg>
+
