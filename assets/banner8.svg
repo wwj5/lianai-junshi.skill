@@ -1,0 +1,45 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="恋爱军师.skill">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.6" stop-color="#11161e"/>
+      <stop offset="1" stop-color="#1a2230"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card">
+      <rect width="1200" height="320" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+    <rect x="0" y="0" width="1200" height="3" fill="#1f6feb" opacity="0.7"/>
+  </g>
+  <rect width="1200" height="320" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+    <text x="64" y="58" font-size="28" font-weight="600" fill="#58a6ff">恋爱军师.skill</text>
+
+    <text x="58" y="152" font-size="72" font-weight="700" fill="#f0f6fc">真人军师</text>
+
+    <text x="62" y="206" font-size="28" fill="#c9d1d9">先看他站在哪一步 再给这一轮该说的话</text>
+
+    <text x="64" y="256" font-size="26" fill="#6e7681">146 万段真人对话 挑出 208 段 1897 轮</text>
+
+    <rect x="846" y="38" width="182" height="56" rx="15" fill="#21262d"/>
+    <text x="872" y="77" font-size="32" fill="#c9d1d9">吃啥都行</text>
+
+    <rect x="806" y="106" width="342" height="56" rx="15" fill="#1f6feb"/>
+    <text x="832" y="145" font-size="32" fill="#ffffff">那火锅 你上次提过</text>
+
+    <rect x="830" y="174" width="214" height="56" rx="15" fill="#21262d"/>
+    <text x="856" y="213" font-size="32" fill="#c9d1d9">你还记得啊</text>
+
+    <rect x="790" y="242" width="278" height="56" rx="15" fill="#1f6feb"/>
+    <text x="816" y="281" font-size="32" fill="#ffffff">嗯 你说了两回</text>
+  </g>
+</svg>

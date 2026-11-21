@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="assets/banner7.svg" width="840" alt="恋爱军师.skill">
+<img src="assets/banner8.svg" width="840" alt="恋爱军师.skill">
 
 # 恋爱军师.skill
 
 **不只帮你回这一句 更帮你看清现在站在哪一步**
 
 覆盖 初识 暧昧 热恋 冲突 冷淡 异地 挽回 谈婚论嫁 八个阶段<br>
-先判阶段 再定这一轮只做一件事 最后按真人打字的方式出话<br>
+先判阶段 再定这一轮只做一件事 最后像一个真人军师那样出话<br>
 **狗头军师给脑子 情圣给流程 童锦程给嘴 各取最强的一段**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
