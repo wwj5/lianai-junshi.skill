@@ -230,13 +230,16 @@
 
 ### 手动装
 
-把 `lianai-junshi` 整个目录拷进 skills 目录。Doubao 的路径是：
+各家的 skills 目录不一样，按你在用的那个放：
 
-```text
-<workspace>/.user_skills/lianai-junshi
-```
+- 豆包 / Doubao：`<workspace>/.user_skills/lianai-junshi`
+- Claude Code 全局：`~/.claude/skills/lianai-junshi`
+- Claude Code 项目内：`<项目>/.claude/skills/lianai-junshi`
+- 其他 agent：任意目录，只要跟它说一句 `SKILL.md` 在哪
 
-脚本全部用相对路径，拷到哪都能跑；只依赖 Python 3 标准库，不需要 pip 装任何东西。
+目录名不用非叫 `lianai-junshi`。脚本全部用相对路径，目录挪到哪都能跑；只依赖 Python 3 标准库，不需要 pip 装任何东西。
+
+如果它根本没有 skills 这个概念，退一步：把 `SKILL.md` 全文贴进它的系统提示或项目规则文件，再把 `scripts/` 的绝对路径告诉它，让它按需调用。
 
 装完先验证一次：
 
@@ -483,7 +486,7 @@ lianai-junshi/
 <details>
 <summary>支持哪些 agent</summary>
 
-任何能读 `SKILL.md` 并调用本地脚本的 agent 环境。Doubao、Claude Code 这类放进去就能用。
+任何能读 `SKILL.md` 并调用本地脚本的 agent 环境。Doubao、Claude Code 都有固定的 skills 目录，放进去就能用；别的 agent 只要能把 `SKILL.md` 交给它读、又能执行 python 就行。
 
 </details>
 
