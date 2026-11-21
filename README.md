@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg?v=2" width="840" alt="恋爱军师.skill">
+<img src="assets/banner2.svg" width="840" alt="恋爱军师.skill">
 
 # 恋爱军师.skill
 
