@@ -91,6 +91,14 @@
 这些不是拍脑袋 是拿 208 段实录反推的<br>
 真人 49.5% 的段落几乎不打标点 平均一条 12 字 超 25 字就拆两条发
 
+**出处**
+
+- 情圣 skill：`tomwong001/qingsheng-skill`
+- 童锦程 skill：`hotcoffeeshake/tong-jincheng-skill`
+- 狗头军师：`shengjidaguai-china/goutoujunshi`
+
+三个都是公开项目 这里只借判断框架 没有复制它们的文本 也没有照搬语气
+
 ## 一条回复是怎么长出来的
 
 ```text
