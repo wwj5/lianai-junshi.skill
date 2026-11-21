@@ -4,7 +4,7 @@
 
 **不只帮你回这一句 更帮你看清现在站在哪一步**
 
-面向初识 暧昧 热恋 冲突 冷淡 异地 挽回 谈婚论嫁全过程的 AI 恋爱参谋<br>
+覆盖 初识 暧昧 热恋 冲突 冷淡 异地 挽回 谈婚论嫁 八个阶段<br>
 先判阶段 再定这一轮只做一件事 最后按真人打字的方式出话
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
