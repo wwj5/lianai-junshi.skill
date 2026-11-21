@@ -321,8 +321,12 @@ python scripts/检查话术.py --text "你要发的话" --peer 对方最后一�
     ["他", "今天闭幕式抢冰墩墩哈哈"]
   ],
   "style": {
-    "msg_count": 48, "len_avg": 11, "len_max": 26,
-    "pattern": "碎片连发", "punct": "半标点", "inverted": false
+    "msg_count": 48,
+    "len_avg": 11,
+    "len_max": 26,
+    "pattern": "碎片连发",
+    "punct": "半标点",
+    "inverted": false
   },
   "roles": {"男": "他", "女": "我"},
   "roles_conf": "ok"
