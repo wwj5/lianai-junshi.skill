@@ -218,7 +218,8 @@
 把下面这句发给你的 AI 助手：
 
 ```text
-请把公开仓库 https://github.com/wwj5/lianai-junshi 下载并安装为本地 skill，装好后告诉我怎么调用。
+请把公开仓库 https://github.com/wwj5/lianai-junshi
+下载并安装为本地 skill 装好后告诉我怎么调用
 ```
 
 装完直接说：
@@ -259,9 +260,11 @@ python scripts/取料.py --list
 
 ```bash
 python scripts/取料.py --list
-python scripts/取料.py --stage 冲突 --tag 女性格:戏多 --n 3
-python scripts/取料.py --stage 暧昧 --style 碎片连发 --n 3 --brief
+python scripts/取料.py --stage 冲突 --n 3
+python scripts/取料.py --stage 暧昧 --style 短句 --n 3
 ```
+
+按性格筛加 `--tag 女性格:戏多`，只要短摘要加 `--brief`。
 
 `--list` 的真实输出（公开版只带 3 段脱敏示例）：
 
@@ -312,8 +315,15 @@ python scripts/检查话术.py --text "你要发的话" --peer 对方最后一�
   "stage": "日常",
   "stage_method": "人工标注",
   "turn_count": 48,
-  "turns": [["我", "早起床"], ["他", "早啊"], ["他", "今天闭幕式抢冰墩墩哈哈"]],
-  "style": {"msg_count": 48, "len_avg": 11, "len_max": 26, "pattern": "碎片连发", "punct": "半标点", "inverted": false},
+  "turns": [
+    ["我", "早起床"],
+    ["他", "早啊"],
+    ["他", "今天闭幕式抢冰墩墩哈哈"]
+  ],
+  "style": {
+    "msg_count": 48, "len_avg": 11, "len_max": 26,
+    "pattern": "碎片连发", "punct": "半标点", "inverted": false
+  },
   "roles": {"男": "他", "女": "我"},
   "roles_conf": "ok"
 }
