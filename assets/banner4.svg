@@ -1,0 +1,37 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="恋爱军师.skill">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.6" stop-color="#11161e"/>
+      <stop offset="1" stop-color="#1a2230"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.76" cy="0.32" r="0.62">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card">
+      <rect width="1200" height="220" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="220" fill="url(#bg)"/>
+    <rect width="1200" height="220" fill="url(#glow)"/>
+    <rect x="0" y="0" width="1200" height="3" fill="#1f6feb" opacity="0.7"/>
+  </g>
+  <rect width="1200" height="220" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+    <text x="64" y="52" font-size="28" font-weight="600" fill="#58a6ff">恋爱军师.skill</text>
+
+    <text x="60" y="128" font-size="66" font-weight="700" fill="#f0f6fc">怎么像人一样打字</text>
+
+    <text x="64" y="180" font-size="32" fill="#8b949e">146 万段真人对话 挑出 208 段 1897 轮</text>
+
+    <rect x="800" y="44" width="222" height="66" rx="16" fill="#21262d"/>
+    <text x="828" y="88" font-size="34" fill="#c9d1d9">在干嘛呢</text>
+
+    <rect x="826" y="130" width="314" height="66" rx="16" fill="#1f6feb"/>
+    <text x="854" y="174" font-size="34" fill="#ffffff">刚下班 累成狗</text>
+  </g>
+</svg>
