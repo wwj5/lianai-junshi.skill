@@ -28,10 +28,10 @@
 
     <text x="64" y="180" font-size="32" fill="#8b949e">146 万段真人对话 挑出 208 段 1897 轮</text>
 
-    <rect x="784" y="44" width="238" height="66" rx="16" fill="#21262d"/>
-    <text x="812" y="88" font-size="34" fill="#c9d1d9">最近有点忙</text>
+    <rect x="806" y="44" width="204" height="66" rx="16" fill="#21262d"/>
+    <text x="834" y="88" font-size="34" fill="#c9d1d9">吃啥都行</text>
 
-    <rect x="818" y="130" width="290" height="66" rx="16" fill="#1f6feb"/>
-    <text x="846" y="174" font-size="34" fill="#ffffff">行 忙完再说</text>
+    <rect x="776" y="130" width="352" height="66" rx="16" fill="#1f6feb"/>
+    <text x="804" y="174" font-size="34" fill="#ffffff">那火锅 你上次提过</text>
   </g>
 </svg>
