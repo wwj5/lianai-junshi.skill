@@ -21,7 +21,7 @@
   </g>
   <rect width="1200" height="320" rx="16" fill="none" stroke="#30363d" stroke-width="1.5"/>
 
-  <line x1="694" y1="34" x2="694" y2="286" stroke="#30363d" stroke-width="1.2" opacity="0.7"/>
+  <line x1="694" y1="34" x2="694" y2="286" stroke="#3b4451" stroke-width="1.2" opacity="0.85"/>
 
   <g font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">
     <text x="64" y="58" font-size="28" font-weight="600" fill="#58a6ff">恋爱军师.skill</text>
@@ -32,16 +32,17 @@
 
     <text x="64" y="256" font-size="26" fill="#6e7681">146 万段真人对话 挑出 208 段 1897 轮</text>
 
-    <rect x="722" y="38" width="184" height="56" rx="15" fill="#21262d"/>
+    <rect x="722" y="38" width="184" height="56" rx="15" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
     <text x="748" y="77" font-size="32" fill="#c9d1d9">吃啥都行</text>
 
     <rect x="808" y="106" width="342" height="56" rx="15" fill="#1f6feb"/>
     <text x="834" y="145" font-size="32" fill="#ffffff">那火锅 你上次提过</text>
 
-    <rect x="722" y="174" width="216" height="56" rx="15" fill="#21262d"/>
+    <rect x="722" y="174" width="216" height="56" rx="15" fill="#262d38" stroke="#3b4451" stroke-width="1"/>
     <text x="748" y="213" font-size="32" fill="#c9d1d9">你还记得啊</text>
 
     <rect x="872" y="242" width="278" height="56" rx="15" fill="#1f6feb"/>
     <text x="898" y="281" font-size="32" fill="#ffffff">嗯 你说了两回</text>
   </g>
 </svg>
+
