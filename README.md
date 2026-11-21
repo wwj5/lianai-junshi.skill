@@ -299,7 +299,7 @@ python scripts/取料.py --stage 暧昧 --style 短句 --n 3
 ### 检查话术
 
 ```bash
-python scripts/检查话术.py --text "你要发的话" --peer 对方最后一条的字数
+python scripts/检查话术.py --text "你要发的话" --peer 8
 ```
 
 `--peer` 是对方最后一条的字数，用来判断你这条是不是回了人家三倍长。
